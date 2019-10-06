@@ -1,0 +1,43 @@
+<div class="periodic-table">
+    <div class="periodic-row space-between">
+        <app-element-tile *ngFor="let element of getElementsInRange(0,2)" [element]="element"></app-element-tile>
+    </div>
+    <div class="periodic-row space-between">
+        <div class="periodic-row">
+            <app-element-tile *ngFor="let element of getElementsInRange(3,4)" [element]="element"></app-element-tile>
+        </div>
+        <div class="periodic-row">
+            <app-element-tile *ngFor="let element of getElementsInRange(5,10)" [element]="element"></app-element-tile>
+        </div>
+    </div>
+    <div class="periodic-row space-between">
+        <div class="periodic-row">
+            <app-element-tile *ngFor="let element of getElementsInRange(11,12)" [element]="element"></app-element-tile>
+        </div>
+        <div class="periodic-row">
+            <app-element-tile *ngFor="let element of getElementsInRange(13,18)" [element]="element"></app-element-tile>
+        </div>
+    </div>
+    <div class="periodic-row">
+        <app-element-tile *ngFor="let element of getElementsInRange(19,36)" [element]="element"></app-element-tile>
+    </div>
+    <div class="periodic-row">
+        <app-element-tile *ngFor="let element of getElementsInRange(37,54)" [element]="element"></app-element-tile>
+    </div>
+    <div class="periodic-row">
+        <app-element-tile *ngFor="let element of getElementsInRange(55,56)" [element]="element"></app-element-tile>
+        <div class="placeholder"><p>Lanthanides</p></div>
+        <app-element-tile *ngFor="let element of getElementsInRange(72,86)" [element]="element"></app-element-tile>
+    </div>
+    <div class="periodic-row">
+        <app-element-tile *ngFor="let element of getElementsInRange(87,88)" [element]="element"></app-element-tile>
+        <div class="placeholder"><p>Actinides</p></div>
+        <app-element-tile *ngFor="let element of getElementsInRange(104,118)" [element]="element"></app-element-tile>
+    </div>
+    <div class="periodic-row">
+        <app-element-tile *ngFor="let element of getElementsInRange(57,71)" [element]="element"></app-element-tile>
+    </div>
+    <div class="periodic-row">
+        <app-element-tile *ngFor="let element of getElementsInRange(89,103)" [element]="element"></app-element-tile>
+    </div>
+</div>
