@@ -5,12 +5,14 @@
     justify-content: center;
 
     border: 1px solid black;
-    height: 125px;
+    height: 5rem;
     margin: 2px;
-    width: 100px;
+    width: 5rem;
 }
 
 .flex-container-tile p {
+    font-size: .7rem;
+    line-height: .65rem;
     margin-bottom: 2px;
     margin-top: 2px;
 }

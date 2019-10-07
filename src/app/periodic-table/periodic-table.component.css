@@ -9,9 +9,9 @@
     justify-content: center;
 
     border: 1px solid black;
-    height: 125px;
+    font-size: .75rem;
     margin: 2px;
-    width: 100px;
+    width: 5rem;
 }
 
 .space-between {

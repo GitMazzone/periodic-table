@@ -34,10 +34,13 @@
         <div class="placeholder"><p>Actinides</p></div>
         <app-element-tile *ngFor="let element of getElementsInRange(104,118)" [element]="element"></app-element-tile>
     </div>
-    <div class="periodic-row">
-        <app-element-tile *ngFor="let element of getElementsInRange(57,71)" [element]="element"></app-element-tile>
+    <div style="margin-left: 11.2%;">
+        <div class="periodic-row">
+            <app-element-tile *ngFor="let element of getElementsInRange(57,71)" [element]="element"></app-element-tile>
+        </div>
+        <div class="periodic-row">
+            <app-element-tile *ngFor="let element of getElementsInRange(89,103)" [element]="element"></app-element-tile>
+        </div>
     </div>
-    <div class="periodic-row">
-        <app-element-tile *ngFor="let element of getElementsInRange(89,103)" [element]="element"></app-element-tile>
-    </div>
+    
 </div>
